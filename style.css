@@ -77,3 +77,39 @@ img {
 .clear {
   clear: both;
 }
+/*EXERCISE*/
+/*color #F2F2CD*/
+@media screen and (max-width:768px) and (min-width:420px){
+  body{
+    background-color: blue;
+  }
+}
+
+
+@media screen and (max-width:420px){
+  #lezioni,
+  #why{
+    background-color: #F2F2CD;
+  }
+  .row{
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 0px;
+  }
+  #lezioni .row>.left,
+  #lezioni .row>.right,
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right,
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    width: 100%;
+  }
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    margin-top: 40px;
+  }
+}
