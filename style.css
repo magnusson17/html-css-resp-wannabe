@@ -80,8 +80,41 @@ img {
 /*EXERCISE*/
 /*color #F2F2CD*/
 @media screen and (max-width:768px) and (min-width:420px){
-  body{
-    background-color: blue;
+  .row{
+    width: 100%;
+    padding: 20px;
+    margin-top: 0px;
+  }
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width: 50%;
+  }
+  #lezioni .row>.left,
+  #lezioni .row>.right,
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right,
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    padding-top: 20px;
+  }
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    margin-top: 0px;
+  }
+  #steps .row>.right{
+    float: none;
+    margin: 0 auto;
+  }
+  img {
+    height: 30vw;
+    width: 30vw;
+  }
+  #lezioni .right img{
+    width: 50vw;
   }
 }
 
