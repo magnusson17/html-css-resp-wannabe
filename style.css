@@ -94,7 +94,7 @@ img {
   .row{
     width: 100%;
     text-align: center;
-    padding-top: 20px;
+    padding: 20px;
     margin-top: 0px;
   }
   #lezioni .row>.left,
@@ -106,10 +106,18 @@ img {
   #why .row>.second,
   #why .row>.third {
     width: 100%;
+    padding-top: 20px;
   }
   #why .row>.first,
   #why .row>.second,
   #why .row>.third {
-    margin-top: 40px;
+    margin-top: 0px;
+  }
+  img {
+    height: 30vw;
+    width: 30vw;
+  }
+  #lezioni .right img{
+    width: 50vw;
   }
 }
